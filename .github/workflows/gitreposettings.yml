@@ -7,7 +7,7 @@ jobs:
  gitreposettings:
     runs-on: ubuntu-latest        
     env:
-      GH_TOKEN: ${{ secrets.REPO_SECRET }}    
+      GH_TOKEN: ${{ secrets.REPO_SECRET1 }}    
       OWNER: ${{ github.repository_owner }}
       REPO: ${{ github.event.repository.name }}
       #ORG: ${{ github.event.org.login }}
